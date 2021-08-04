@@ -1,0 +1,12 @@
+postgres:
+  host: localhost
+  port: 5430
+  user: test
+  password: test
+  db: test
+  min_size: 5
+  max_size: 10
+
+nginx_logs:
+  access_log: nginx_logs
+  error_log:
